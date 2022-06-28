@@ -42,16 +42,16 @@ Titre = "Programme Today"
 Reponse = MsgBox(Message, Bouton, Titre)			
 'Bureau
 If Reponse = "6" then						
-objShell.Run ("https://mail.google.com/mail/u/0/#inbox")
-objShell.Run ("https://calendar.google.com/calendar/u/0/r?tab=mc&pli=1")			
-objShell.Run ("https://www.mindomo.com/fr/mindmap/472c36e27e454f05b6545c479bec423c")
+objShell.Run ("https://mail.google.com/mail")
+objShell.Run ("https://calendar.google.com/calendar/")			
+objShell.Run ("https://www.mindomo.com/fr/mindmap/")
 objShell.Run ("https://exchange.youngplatform.com/wallet")
 
 Elseif Reponse = "7" then				
-        WshShell.Run ("C:\Users\****\Desktop\A trier\Tor Browser\Browser\firefox.exe")				      
-        WshShell.Run ("C:\Users\****\Desktop\gpg4usb\start_windows.exe")
+        WshShell.Run ("C:\Users\****\Desktop\A trier\*****\****.exe")				      
+        WshShell.Run ("*:\**\****\*****start_****.exe")
 MsgBox "VNP manquant !",,"Alert" 
-        WshShell.Run ("C:\WINDOWS\system32\notepad.exe")
+        WshShell.Run ("C:\WINDOWS\******\notepad.exe")
 
 Else	
    
@@ -63,17 +63,17 @@ Else
     Rep = MsgBox(Mess, Bouton, Titre)			
     
     If Rep = "6" then	
-        'WshShell.Run """C:\ProgramData\Microsoft\Windows\Start Menu\Programs\loopMIDI\loopMIDI.Ink"""	
-        WshShell.Run """C:\ProgramData\Ableton\Live 10 Lite\Program\Ableton Live 10 Lite.exe"""	
-        WshShell.Run """C:\Program Files\Arturia\Analog Lab 4\Analog lab 4.exe"""
+        'WshShell.Run """*:\ProgramData\Microsoft\Windows\Start Menu\Programs\loopMIDI\loopMIDI.Ink"""	
+        WshShell.Run """*:\ProgramData\Ableton\Live 10 Lite\Program\Ableton Live 10 Lite.exe"""	
+        WshShell.Run """*:\Program Files\Arturia\Analog Lab 4\Analog lab 4.exe"""
         Msgbox "Attente de connection du Controller USB-MIDI"
-   ' WshShell.Run ("C:\VSCodeUserSetup-x64-1.44.0.exe")
+   ' WshShell.Run ("*:\VSCodeUserSetup-x64-1.44.0.exe")
     			
     
     Elseif Rep = "7" then				
-         WshShell.Run """C:\Program Files\Resolume Arena\Arena.exe"""
+         WshShell.Run """*:\*****\Resolume Arena\Arena.exe"""
          Msgbox "Connecte ton Controller USB-MIDI"
-         'https://drive.google.com/drive/folders/1Uv9FRcnYjJ2aoE6HxDR56bx8qv-_neDg?ths=true				
+         'https://drive.google.com/drive				
     
     Else
         Msgbox "La vie est ... "  							
@@ -82,24 +82,3 @@ Else
 End if
 
 
-
-
-' lien Wscript - bureau
-        
-'Set objShell = CreateObject("Wscript.Shell") 
-'MsgBox "Ligne 1!!!" & Chr(10) & "Ligne 2!!!" & Chr(10) & "Ligne 3!!!"
-'intMessage = MsgBox( " On ouvre la config, BUREAU ?" & vbCr _ 
- '       & vbCr _
-  '      & "Agenda - mail - drive" & vbCr _
-   '     , _
-    '    vbYesNo, "Programme TODAY  ? ")
-
-'If intMessage = vbYes Then
- '   objShell.Run ("https://mail.google.com/mail/u/0/#inbox")
-  '  objShell.Run ("https://calendar.google.com/calendar/u/0/r?tab=mc&pli=1")
-    'objShell.Run ("https://mail.google.com/mail/u/0/#inbox")
-'Else
-    'Wscript.Quit
-   ' intMessage = MsgBox("ok je lance une playlist")
-'objShell.Run ("https://www.youtube.com/")
-'End If
