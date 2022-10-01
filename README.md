@@ -19,3 +19,22 @@ graph TD;
     Adapt-->if-anguish;
 ```
 
+# Logic 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    C-->D;
+    C-->E;
+    B-->K;
+    B-->L;
+    L-->M;
+    K-->N;
+    D-->K;
+    D-->F;
+    E-->F;
+    F-->G;
+    G-->I;
+    F-->H;
+    H-->J;
+```
