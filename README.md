@@ -1,11 +1,21 @@
-# preset-vb
+# Preset-vb
 Outil pour ouvrir des preset pré-déterminé.
 #Automation tool. Allows you to open several queries at the same time.
 
-#1- Remplacer les chemins existant par les vôtres.
+#1- Replace existing paths with your own.
 
-#2- Ajouter ce code à votre planificateur de tâche.
+#2- Add this code to your task scheduler.
 
-#3- ouvrez vos Soft ou pages internet et soyez prêt à travailler en 2 clics.
+#3- User and open your Software or web pages and be ready to work in 2 clicks.
 
 ![preset](https://user-images.githubusercontent.com/61543927/175936854-e52f52b7-db64-4ef4-a960-a3c83ab37273.png)
+
+## HumeurV2 is a mental health assistant created during confinement:
+
+```mermaid
+graph TD;
+    if-anguish-->Assistant;
+    Assistant-->Adapt;
+    Adapt-->if-anguish;
+```
+
